@@ -1,7 +1,20 @@
-(function($){
-  $(function(){
+$(function () {
 
-    $('.button-collapse').sideNav();
+  $('#modal1').modal();
+  $('#modal2').modal();
+  
+  $('.button-collapse').sideNav();
 
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+
+  // $().click(function(){
+  //   $('.modal').modal();
+  // });
+
+
+
+
+
+
+
+
+});
